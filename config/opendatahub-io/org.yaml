@@ -99,18 +99,20 @@ orgs:
         repos:
           odh-manifests: triage
       Data Science Pipelines Maintainers:
-        description: ""
+        description: "Maintainers for ODH DSP and related repos."
         maintainers:
         - gregsheremeta
+        - HumairAK
         members:
         - rimolive
         - HumairAK
-        - harshad16
         - gmfrasca
         - DharmitD
+        - gregsheremeta
         privacy: closed
         repos:
-          data-science-pipelines-operator: maintain
+          data-science-pipelines-operator: admin
+          data-science-pipelines: admin
       Distributed Workloads Maintainers:
         description: ""
         maintainers:
@@ -304,40 +306,6 @@ orgs:
         privacy: closed
         repos:
           odh-model-controller: write
-      data-science-pipelines repository Write:
-        description: "Members with Write access to the data-science-pipelines repository"
-        members:
-        - 4n4nd
-        - DaoDaoNoCode
-        - Dbryant58
-        - DharmitD
-        - HumairAK
-        - Jooho
-        - VaishnaviHire
-        - VannTen
-        - Xaenalt
-        - andrewballantyne
-        - atheo89
-        - dchourasia
-        - dfeddema
-        - durandom
-        - gmfrasca
-        - goern
-        - guimou
-        - harshad16
-        - heyselbi
-        - jedemo
-        - jeff-phillips-18
-        - jgarciao
-        - judyobrienie
-        - kywalker-rh
-        - lucferbux
-        - lugi0
-        - maroroman
-        - rimolive
-        privacy: closed
-        repos:
-          data-science-pipelines: write
       Notebook Controller Maintainers:
         description: Maintainers of the notebook controller and all connected repos
         maintainers:
